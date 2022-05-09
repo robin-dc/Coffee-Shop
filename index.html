@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+<!-- TOPBAR -->
+    <nav>
+        <div class="logo">
+            <h2 class="bold">ROBIN'S</h2>
+            <h3>COFFEE HOUSE</h3>
+        </div>
+        <ul>
+            <li><a href="#section-1"><span>Home</span></a></li>
+            <li><a href="#section-2"><span>About</span></a></li>
+            <li><a href="#section-3"><span>Coffees</span></a></li>
+            <li><a href="#section-4"><span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+<!-- SECTIONS -->
+        <!-- SECTION 1 -->
+        <section id="section-1">
+            <div class="container">
+                <h2>Sourcing, roasting, and serving</h2>
+                <h1 class="bold">coffees that we love</h1>
+                <img src="images/section1.jpg" alt="three hands holding a cup of coffee in circle form.">
+            </div>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section id="section-2">
+            <div class="container">
+                <div class="info">
+                    <div class="text">
+                        <h3 class="bold">A project born in passion</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Perspiciatis laudantium iusto quasi illum laborum, cum illo maxime pariatur reiciendis at mollitia soluta.
+                            Veritatis consectetur delectus recusandae adipisci provident corporis rerum at dolorum quae, dicta nemo,
+                            harum perspiciatis incidunt dolores necessitatibus quas sequi soluta.
+                            Porro necessitatibus eveniet quis officia accusamus possimus?</p>
+                    </div>
+                    <div class="text">
+                        <h3 class="bold">We source our own beans<br>to ensure you get the<br> best coffee</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Perspiciatis laudantium iusto quasi illum laborum, cum illo maxime pariatur reiciendis at mollitia soluta.
+                            Veritatis consectetur delectus recusandae adipisci provident corporis rerum at dolorum quae, dicta nemo,
+                            harum perspiciatis incidunt dolores necessitatibus quas sequi soluta.
+                            Porro necessitatibus eveniet quis officia accusamus possimus?</p>
+                    </div>
+                </div>
+                <img src="images/section2.jpg" alt="glowing 'coffee' text ">
+            </div>
+        </section>
+
+        <!-- SECTION 3 -->
+        <section id="section-3">
+            <div class="container">
+                <div class="sign">
+                    <h2>Never miss out on one of our special offers</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                        Quos sequi expedita deserunt molestias animi quo!</p>
+                    </div>
+                    <br>
+                <div>
+                    <input type="text" name="search" placeholder="  Enter text here.">
+                    <a href="#">SEARCH</a>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="images/1.jpg" alt="">
+                <img src="images/2.jpg" alt="">
+                <img src="images/3.jpg" alt="">
+                <img src="images/4.jpg" alt="">
+                <img src="images/section2.jpg" alt="">
+                <img src="images/6.jpg" alt="">
+                <img src="images/7.jpg" alt="">
+                <img src="images/8.jpg" alt="">
+                <img src="images/9.jpg" alt="">
+                <img src="images/10.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- SECTION 4 -->
+        <section id="section-4">
+            <div class="container">
+                <div class="info">
+                    <h2>COME FOR <br>A VISIT</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet,<br>consectetur adipisicing.</p>
+                    <ol>
+                        <br>
+                        <li>Monday
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <br>
+                        <li>Tuesday
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <br>
+                        <li>Wednesday
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <br>
+                        <li>Thursday
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <br>
+                        <li>Friday
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <br>
+                        <li>Saturday
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </li>
+                        <br>
+                        <li>Sunday
+                            <p>Lorem ipsum dolor sit amet.</p>  
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- Form -->
+                <form action="process.php" method="POST" enctype="application/x-www-form-urlencoded">
+                    <div class="input">
+                        <h2>GET IN TOUCH</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <br>
+                    <div class="inputs">
+                        <label>Name</label>
+                        <input type="text" name="Name" id="Name" placeholder="  Enter here." required>
+                    </div>
+                    <br>
+                    <div class="inputs">
+                        <label>Email</label>
+                        <input type="email" name="Email" id="Email" placeholder="  Enter here." required>
+                    </div>
+                    <br>
+                    <div class="inputs">
+                        <label>Gender</label>
+                        <select name="Gender" id="Gender">
+                            <option value="Male">  Male</option>
+                            <option value="Female">  Female</option>
+                            <option value="Others">  Preferred not to say</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="inputs">
+                        <label>Message</label>
+                        <textarea name="Message" id="Message" cols="30" rows="20" placeholder="  Aa" required></textarea>
+                    </div>
+                    <br>
+                    <div class="btn">
+                        <button type="submit" name="submit" value="Submit Form">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <h2>FOLLOW US IN SOCIAL MEDIA</h2>
+            <ul>
+                <li><img src="images/whitegithub.png" alt=""></li>
+                <li><img src="images/whitefb.png" alt=""></li>
+                <li><img src="images/whitein.png" alt=""></li>
+                <li><img src="images/emailwhite.png" alt=""></li>
+            </ul>
+            <p><small>Copyright &copy; 2022 - Robin Dela Cruz</small></p>
+        </footer>    
+    
+</body>
+</html>
